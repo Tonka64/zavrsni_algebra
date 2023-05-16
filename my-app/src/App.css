@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: space-between;
   height: 100vh;
+  
 }
 
 .App-header {
@@ -30,25 +31,31 @@
   padding-left: 0;
   flex-grow: 1;
   overflow: auto;
+  
+
 }
 
 .Messages-message {
   display: flex;
   margin-top: 5px;
+  
 }
 
 .Messages-message.currentMember {
   /*justify-content: flex-end;*/
   flex-direction: row-reverse;
   text-align: right;
+  
 }
 
 .Message-content {
   display:inline-block;
+ 
 }
 
 .currentMember > .Message-content {
   align-items: flex-end;
+  
 }
 
 .Messages-message > .avatar {
@@ -73,7 +80,7 @@
   max-width: 400px;
   margin: 5px;
   border-radius: 10px;
-  /*background-color: black;*/
+  background-color: black;
   color: white;
   display: inline-block;
   font-size: 13px;
