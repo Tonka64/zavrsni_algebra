@@ -15,6 +15,7 @@ class Sidebar extends React.Component{
         this.setState({isOpen: !isOpen});
     }
 
+    
     render() {
         const {isOpen} = this.state;
         return(

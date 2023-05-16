@@ -6,7 +6,7 @@ const Header = (props) =>{
         {/* Prazan react fragment, služi istu svrhu kao i div, ali manje opterećuje DOM */}
         {isLoggedIn && 
         <div className="App-header">
-        <button className='sidebar-btn' onClick={props.toggleSidebar}>Sidebar</button>
+        {<button className='sidebar-btn' onClick={props.toggleSidebar}>Sidebar</button>}
         <h1 className="nazivSobe">{props.username}'s Chat Room</h1>
         <div className="logout-btn"> 
         <button className="logout-btn2" onClick={props.handleLogout}>Logout</button>
