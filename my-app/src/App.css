@@ -80,7 +80,7 @@
   max-width: 400px;
   margin: 5px;
   border-radius: 10px;
-  background-color: black;
+  background-color: rgb(220, 119, 65);
   color: white;
   display: inline-block;
   font-size: 13px;
@@ -92,20 +92,21 @@
   
 }
 
+
 form {
   display: flex;
   width: 100%;
   justify-content: space-between;
   max-width: 900px;
   margin: 0 auto 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 input {
   padding: 10px;
-  font-size: 14px;
+  font-size: 13px;
   border-radius: 8px;
   border: 1px solid burlywood;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   flex-grow: 1;
 }
 
