@@ -1,0 +1,126 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
+  
+  .App-header {
+    /*background-color: #262626;*/
+    background-image: url(https://i.pinimg.com/564x/15/e9/c7/15e9c74380247e807a9ec6aa326995ca.jpg);
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    overflow: visible;
+    width: 100%;
+    text-align: center;
+    text-indent: -205px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+  }
+  
+  .Messages-list {
+    padding: 10px 10px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    list-style: none;
+    padding-left: 0;
+    flex-grow: 1;
+    overflow: auto;
+  }
+  
+  .header1 {
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+  }
+
+
+  .Messages-message {
+    display: flex;
+    margin-top: 5px;
+    
+  }
+  
+  .Messages-message.currentMember {
+    /*justify-content: flex-end;*/
+    flex-direction: row-reverse;
+    text-align: right;
+    
+  }
+  
+  .Message-content {
+    display:inline-block;
+   
+  }
+  
+  .currentMember > .Message-content {
+    align-items: flex-end;
+    
+  }
+  
+  .Messages-message > .avatar {
+    height: 18px;
+    width: 18px;
+    border-radius: 20%;
+    display: inline-block;
+    margin: 0 10px -10px;
+  
+  }
+  
+  .Message-content > .username {
+    display: block;
+    color: black;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 2px;
+  }
+  
+  .Message-content > .text {
+    padding: 10px;
+    max-width: 400px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(220, 119, 65);
+    color: white;
+    display: inline-block;
+    font-size: 13px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .currentMember > .Message-content .text {
+    background-color: rgb(184, 154, 111);
+    
+  }
+  
+  
+  form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 13px;
+    border-radius: 8px;
+    border: 1px solid burlywood;
+    flex-grow: 1;
+  }
+  
+  button {
+    padding: 5px 10px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+  }
