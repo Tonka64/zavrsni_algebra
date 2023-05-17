@@ -1,89 +1,44 @@
-import './App.css';
-import Messages from './components/Messages';
-import React from 'react';
-import Input from "./components/Input";
+import React from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
+import About from "./components/About";
+import Chat from "./components/Chat";
+import Header from "./components/Header";
+import Login from "./components/Login";
 import Sidebar from "./components/Sidebar";
+import "./App.css";
 
-function randomName() {
- const adjectives = ["autumn", "hidden", "bitter", "misty", "silent", "empty", "dry", "dark", "summer", "icy", "delicate", "quiet", "white", "cool", "spring", "winter", "patient", "twilight", "dawn", "crimson", "wispy", "weathered", "blue", "billowing", "broken", "cold", "damp", "falling", "frosty", "green", "long", "late", "lingering", "bold", "little", "morning", "muddy", "old", "red", "rough", "still", "small", "sparkling", "throbbing", "shy", "wandering", "withered", "wild", "black", "young", "holy", "solitary", "fragrant", "aged", "snowy", "proud", "floral", "restless", "divine", "polished", "ancient", "purple", "lively", "nameless"];
- const nouns = ["waterfall", "river", "breeze", "moon", "rain", "wind", "sea", "morning", "snow", "lake", "sunset", "pine", "shadow", "leaf", "dawn", "glitter", "forest", "hill", "cloud", "meadow", "sun", "glade", "bird", "brook", "butterfly", "bush", "dew", "dust", "field", "fire", "flower", "firefly", "feather", "grass", "haze", "mountain", "night", "pond", "darkness", "snowflake", "silence", "sound", "sky", "shape", "surf", "thunder", "violet", "water", "wildflower", "wave", "water", "resonance", "sun", "wood", "dream", "cherry", "tree", "fog", "frost", "voice", "paper", "frog", "smoke", "star"];
- const adjective = adjectives[Math.floor(Math.random() * adjectives.length)];
- const noun = nouns[Math.floor(Math.random() * nouns.length)];
- return adjective + noun;
-}
+class App extends React.Component{
 
-function randomColor() {
- return '#' + Math.floor(Math.random() * 0xFFFFFF).toString(16);
-}
-class App extends React.Component {
-
-  constructor() {
-    super();
-    this.drone = new window.Scaledrone("OawoHLsKOIU7IRDl", {
-      data: this.state.member
-    });
-    this.drone.on('open', error => {
-      if (error) {
-        return console.error(error);
-      }
-      const member = {...this.state.member};
-      member.id = this.drone.clientId;
-      this.setState({member});
-    });
-
-    
-  ///--------
-
-  const room = this.drone.subscribe("observable-room");
-  ///---------
-
-  room.on('data', (data, member) => {
-    const messages = this.state.messages;
-    messages.push({member, text: data});
-    this.setState({messages});
-   });
+  constructor(props){
+    super(props);
+    this.state={username: ""};
   }
-
-
-  state = {
-    messages: [],
-    member: {
-      username: randomName(),
-      color: randomColor()
-    }
+  
+  handleLogin = (username) =>{
+    this.setState({username})
   }
-
-
-   onSendMessage = (message) => {
-    //quick fix for sending empty messages
-    if (message.length===0) return;
-    this.drone.publish({
-      room: "observable-room",
-      message
-    });
-  }
-
+  
   toggleSidebar = () =>{
     this.sidebar.ToggleSidebar();
   }
 
-  render(){ 
-    return (
-      <div className="App">
-      <div className="App-header">
-        <button className='sidebar-btn' onClick={this.toggleSidebar}>Sidebar</button>
-        <h1>Chat</h1>
-        {/*prazan div za pozicioniranje elemenata*/}
-        <div></div>
-      </div>
-      <Sidebar ref={(reference)=> this.sidebar = reference}/>
-      <Messages
-        messages={this.state.messages}
-        currentMember={this.state.member}
-      />
-      <Input onSendMessage={this.onSendMessage}/>
+  handleLogout =() =>{
+    this.setState({username: ""});
+  }
+
+  render(){
+    return   ( 
+       <div className="App">  
+         <Header toggleSidebar={this.toggleSidebar} username={this.state.username} handleLogout={this.handleLogout} /> 
+         <Sidebar ref={(reference)=> this.sidebar = reference}/> 
+          <Routes>
+              <Route path="/" 
+              element={ this.state.username ? <Chat username={this.state.username}/> : <Navigate to="/login" />} />
+              <Route path="/login" element={<Login onLogin={this.handleLogin} username={this.state.username}/>} />
+              <Route path="/about" element={this.state.username ? <About />: <Navigate to="/login" /> } />
+            </Routes>
     </div>
-    );
+    )
   }
 }
 
