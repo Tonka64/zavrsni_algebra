@@ -22,13 +22,13 @@ class Sidebar extends React.Component{
             <div className="container-fluid mt-3">
                 <div className={`sidebar ${isOpen === true ? "active" : ""}`}>
                     <div className="sd-header">
-                        <h4>Sidebar </h4>
+                        <h4 className="sidebarh1">Sidebar </h4>
                         <div className="btn btn-primary" onClick={this.ToggleSidebar}>Close</div>
                     </div>
                     <div className="sd-body">
                         <ul>
-                            <li><Link to="/" className="sd-link">Chat</Link></li>
-                            <li><Link to="/about" className="sd-link">About</Link></li>
+                            <li><Link to="/zavrsni_algebra/" className="sd-link">Chat</Link></li>
+                            <li><Link to="/zavrsni_algebra/about" className="sd-link">About</Link></li>
                         </ul>
                     </div>
                 </div>

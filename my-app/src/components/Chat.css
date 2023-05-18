@@ -2,26 +2,26 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100vh;
+    height: 950px;
+    background-image: url(https://img.freepik.com/free-vector/talking-bubble-vector-art-illustration_56104-870.jpg?w=900&t=st=1684432559~exp=1684433159~hmac=ca3c37ea1776940d7977e269cd0ad002e08d11426e0e1f2d969fa1788af10a53);
+    background-repeat: no-repeat;  
+    background-position: center;
   }
   
   .App-header {
-    /*background-color: #262626;*/
-    background-image: url(https://i.pinimg.com/564x/15/e9/c7/15e9c74380247e807a9ec6aa326995ca.jpg);
-    background-color: white;
-    background-repeat: no-repeat;
+    background-color: lightgrey;
     background-position: center;
-    background-size: auto;
     overflow: visible;
     width: 100%;
     text-align: center;
     text-indent: -205px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
+    
   }
   
   .Messages-list {
-    padding: 10px 10px;
+    padding: 8px 5px;
     max-width: 900px;
     width: 100%;
     margin: 0 auto;
@@ -49,29 +49,35 @@
 
   .nazivSobe{
     color: black;
-    font-size: 20px;
+    font-size: 40px;
     text-indent: -110px;
+    margin-bottom: 17px;
+  
   }
 
   .logout-btn{
     color: white;
-    text-align: center;
-    padding: 5px;
-
+    text-indent: 2350px;;
+    padding: 15px;
+  
   }
 
    .logout-btn2 {
-    border-radius: 35px;
-    padding: 6px;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 27px;
    }
 
+  .logout-btn2:hover {
+    color: black;
+    background-color: darkcyan;
+  }
   .Messages-message {
     display: flex;
-    margin-top: 5px;
+    margin: 20px;
     
   }
   
-
   .Messages-message.currentMember {
     /*justify-content: flex-end;*/
     flex-direction: row-reverse;
@@ -90,9 +96,9 @@
   }
   
   .Messages-message > .avatar {
-    height: 18px;
-    width: 18px;
-    border-radius: 20%;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
     display: inline-block;
     margin: 0 10px -10px;
   
@@ -101,7 +107,7 @@
   .Message-content > .username {
     display: block;
     color: black;
-    font-size: 15px;
+    font-size: 22px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-bottom: 2px;
   }
@@ -110,20 +116,32 @@
     padding: 10px;
     max-width: 400px;
     margin: 5px;
-    border-radius: 10px;
-    background-color: rgb(220, 119, 65);
+    border-radius: 8px;
+    background-color: rgb(210, 82, 82);
     color: white;
     display: inline-block;
-    font-size: 13px;
+    font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   .currentMember > .Message-content .text {
-    background-color: rgb(184, 154, 111);
+    background-color: rgb(109, 103, 94);
     
   }
   
-  
+  .input-btn {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 27px;
+    border-radius: 8px;
+  }
+
+  .input-btn:hover {
+    color: black;
+    background-color: darkcyan;
+  }
+
+
   form {
     display: flex;
     width: 100%;
@@ -135,9 +153,10 @@
   
   input {
     padding: 10px;
-    font-size: 13px;
+    margin-right: 10px;
+    font-size: 22px;
     border-radius: 8px;
-    border: 1px solid burlywood;
+    border: 3px solid rgb(33, 189, 174);
     flex-grow: 1;
   }
   
