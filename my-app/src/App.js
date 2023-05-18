@@ -7,6 +7,8 @@ import Login from "./components/Login";
 import Sidebar from "./components/Sidebar";
 import "./App.css";
 
+
+
 class App extends React.Component{
 
   constructor(props){
@@ -40,6 +42,8 @@ class App extends React.Component{
     </div>
     )
   }
+
 }
+
 
 export default App;

@@ -16,10 +16,10 @@ const Login = (props) =>{
       
     <div className="container">
         <form className="login-form" onSubmit={handleSubmit}>
-            <label htmlFor="title">
-                <h1>Login</h1>
-            </label>
-            <input 
+           {/* <label htmlFor="title">
+                <h1 className="header1">Login</h1>
+    </label> */}
+            <input className="input-username"
             id="title"
             type="text" 
             placeholder="Enter your username" 
