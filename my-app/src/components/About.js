@@ -11,10 +11,8 @@ const About = () =>{
         <nav>
           <ul className="lista1">
             <li><a href="#onama">About Us</a></li>
-            <li><a href="#galerija">Team Members</a></li>
-            <li><a href="#velicine">Tablica velicina</a></li> 
-            <li><a href="#kontakt">Kontakt</a></li> 
-            
+            <li><a href="#teammembers">Team Members</a></li>
+            <li><a href="#contact">Contact Information</a></li> 
           </ul>    
         </nav> 
     <div> 
@@ -55,20 +53,35 @@ const About = () =>{
     <br/>    
     <hr/>
     <div>
-        <h1 id="kontakt">Kontakt</h1>
-           <a href="mailto:moj.email@mojmail.com" target='_blank'>E-mail adresa</a>
-           <br/>
-           <a href="tel:+385987654321" target='_blank'>Kontakt telefon</a>
+        <h1 id="contact">Contact Information</h1>
+        <p className="para123">For more information about our Chat Application, including its features, 
+            functionality, and how it can cater to your communication needs, please don't 
+            hesitate to reach out to us. We're here to address any queries or concerns you may have.</p>
+            <br/>
+        <p className="para123">You can contact us by sending an email or call our support for more information. 
+            Our dedicated support team is eager to assist you and provide further information 
+            to ensure your experience with our Chat Application is nothing short of exceptional.</p>
+            <br/>
+        <p className="para123">Join our thriving community of users and experience the joy of effortless communication. 
+            We look forward to hearing from you and being a part of your communication journey.</p>
+            <br/>
+            <br/>
+            <br/>
+        <table className="tablica-kontakt">
+            <tr>
+           <td className="td12"><a href="mailto:moj.email@mojmail.com" target='_blank'>E-mail adresa</a></td>
+           <td className="td12"><a href="tel:+385987654321" target='_blank'>Kontakt telefon</a></td>
+           </tr>
+         </table>  
     </div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     <hr/>
-    <p>za vise info posjetite sljedece linkove</p>
-    <ol className="lista2">
-      <li><a href="https://www.algebra.hr">Algebra</a></li>
-      <li><a href="https://www.google.com">Google</a></li>     
-    </ol>  
     <footer>
-        <p>Thank you for using Chat application.</p>
-        <p>Chatt Application Shop © 2023</p>
+        <p className="thankyou">Thank you for using Chat application.</p>
+        <p className="copyright">Chatt Application © 2023</p>
     </footer>
     </div>
 }

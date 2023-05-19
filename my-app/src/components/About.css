@@ -13,7 +13,7 @@
     justify-content: space-around;
     list-style: none;
     margin:0;
-    font-size: 25px;
+    font-size: 32px;
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -27,27 +27,7 @@
     text-decoration: none;
     display: block;
     padding: 15px;
-    color: white;
-}
-
-.lista1 a:hover {
-    background: white;
-    color: black;
-}
-
-
-.lista2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 22px;
-}
-
-.lista2 a:hover {
-    background-color: black;
-    color: white;
-}
-
-.lista2 a:link {
-    color:black;
+   
 }
 
  .lista1 a:link {
@@ -55,46 +35,47 @@
  }
 
  .lista1 a:visited {
-    color: rgb(231, 142, 58);
-    text-decoration: line-through;
+    color: darkcyan;
  }
+
 
 table, th, td {
     border: none;
 
 }
 
-
 #onama {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 80px;
+    margin-top: 170px;
 }
 
 .par1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 27px;
+    font-size: 32px;
     margin-left: 80px;
     margin-right: 80px;
+    margin-top: 60px;
+    margin-bottom: 120px;
 }
 ::selection {
     color: white;
-    background-color: rgb(224, 199, 154);
+    background-color: darkcyan;
 }
 
 #teammembers {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .logo1 {
     border-radius: 50%;
-    margin-left: 80px;
+    margin-left: 150px;
     width: 350px;
     height: 350px;
-    margin-right: 80px;
+    margin-right: 170px;
     margin-bottom: 20px;
 }
 
@@ -103,7 +84,7 @@ table, th, td {
     margin-left: 80px;
     width: 350px;
     height: 350px;
-    margin-right: 70px;
+    margin-right: 170px;
     margin-bottom: 20px;
 }
 
@@ -112,7 +93,7 @@ table, th, td {
     margin-left: 80px;
     width: 350px;
     height: 350px;
-    margin-right: 70px;
+    margin-right: 170px;
     margin-bottom: 20px;
 }
 
@@ -121,7 +102,7 @@ table, th, td {
     margin-left: 80px;
     width: 350px;
     height: 350px;
-    margin-right: 70px;
+    margin-right: 170px;
     margin-bottom: 20px;
 }
 
@@ -130,7 +111,7 @@ table, th, td {
     margin-left: 80px;
     width: 350px;
     height: 350px;
-    margin-right: 70px;
+    margin-right: 120px;
     margin-bottom: 20px;
 }
 
@@ -150,7 +131,7 @@ table, th, td {
 
 .td2 {
     text-align: center;
-    width: 21%;
+    width: 20%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
 }
@@ -159,7 +140,7 @@ table, th, td {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
-    width: 19%;
+    width: 20%;
 }
 
 .td4 {
@@ -177,4 +158,64 @@ table, th, td {
 }
 
 
+#contact {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 60px;
+}
 
+.para123 {
+    font-size: 32px;
+    text-align: center;
+    margin: 25px;
+    margin-bottom: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.tablica-kontakt {
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+    background-color: white;
+}
+   
+.td12 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    text-align: center; 
+    color: black;
+    margin-top: 20px;
+}
+
+
+.td12 a:link{
+    color:white;
+    background-color: darkcyan;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 9px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.td12 a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.thankyou {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.copyright {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 30px;
+    opacity: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
