@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/zavrsni_algebra/static/css/main.204711e1.css",
-    "main.js": "/zavrsni_algebra/static/js/main.1fa6425f.js",
+    "main.css": "/zavrsni_algebra/static/css/main.41bb692b.css",
+    "main.js": "/zavrsni_algebra/static/js/main.2b7eb621.js",
+    "static/media/logo4.jpg": "/zavrsni_algebra/static/media/logo4.476af6c9a102d5896a3b.jpg",
+    "static/media/logo6.jpg": "/zavrsni_algebra/static/media/logo6.a3a27bb47e4642edf8ff.jpg",
+    "static/media/logo7.jpg": "/zavrsni_algebra/static/media/logo7.e4637bd6445e2ec395c4.jpg",
+    "static/media/logo5.jpg": "/zavrsni_algebra/static/media/logo5.ddc7c64d68d8e0922923.jpg",
     "index.html": "/zavrsni_algebra/index.html",
-    "main.204711e1.css.map": "/zavrsni_algebra/static/css/main.204711e1.css.map",
-    "main.1fa6425f.js.map": "/zavrsni_algebra/static/js/main.1fa6425f.js.map"
+    "main.41bb692b.css.map": "/zavrsni_algebra/static/css/main.41bb692b.css.map",
+    "main.2b7eb621.js.map": "/zavrsni_algebra/static/js/main.2b7eb621.js.map"
   },
   "entrypoints": [
-    "static/css/main.204711e1.css",
-    "static/js/main.1fa6425f.js"
+    "static/css/main.41bb692b.css",
+    "static/js/main.2b7eb621.js"
   ]
 }
