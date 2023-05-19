@@ -81,7 +81,7 @@ const About = () =>{
     <hr/>
     <footer>
         <p className="thankyou">Thank you for using Chat application.</p>
-        <p className="copyright">Chatt Application © 2023</p>
+        <p className="copyright">Chat Application © 2023</p>
     </footer>
     </div>
 }

@@ -13,7 +13,7 @@
     justify-content: space-around;
     list-style: none;
     margin:0;
-    font-size: 32px;
+    font-size: 20px;
     background: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -47,16 +47,17 @@ table, th, td {
 #onama {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin-top: 170px;
+    margin-top: 80px;
+    font-size: 24px;
 }
 
 .par1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 32px;
+    font-size: 18px;
     margin-left: 80px;
     margin-right: 80px;
     margin-top: 60px;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 ::selection {
     color: white;
@@ -68,50 +69,51 @@ table, th, td {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
+    font-size: 24px;
 }
 
 .logo1 {
     border-radius: 50%;
-    margin-left: 150px;
-    width: 350px;
-    height: 350px;
-    margin-right: 170px;
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
     margin-bottom: 20px;
 }
 
 .logo4 {
     border-radius: 50%;
-    margin-left: 80px;
-    width: 350px;
-    height: 350px;
-    margin-right: 170px;
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
     margin-bottom: 20px;
 }
 
 .logo5 {
     border-radius: 50%;
-    margin-left: 80px;
-    width: 350px;
-    height: 350px;
-    margin-right: 170px;
+    margin-left: 60px;
+    width: 200px;
+    height:200px;
+    margin-right: 40px;
     margin-bottom: 20px;
 }
 
 .logo6 {
     border-radius: 50%;
-    margin-left: 80px;
-    width: 350px;
-    height: 350px;
-    margin-right: 170px;
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
     margin-bottom: 20px;
 }
 
 .logo7 {
     border-radius: 50%;
-    margin-left: 80px;
-    width: 350px;
-    height: 350px;
-    margin-right: 120px;
+    margin-left: 60px;
+    width: 200px;
+    height: 200px;
+    margin-right: 40px;
     margin-bottom: 20px;
 }
 
@@ -125,7 +127,7 @@ table, th, td {
     width: 20%;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 25px;
 
 }
 
@@ -133,27 +135,27 @@ table, th, td {
     text-align: center;
     width: 20%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .td3 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 25px;
     width: 20%;
 }
 
 .td4 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 25px;
     width: 20%;
 }
 
 .td5 {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 25px;
     width: 20%;
 }
 
@@ -163,10 +165,12 @@ table, th, td {
     text-align: center;
     margin-top: 150px;
     margin-bottom: 60px;
+    font-size: 24px;
+
 }
 
 .para123 {
-    font-size: 32px;
+    font-size: 17px;
     text-align: center;
     margin: 25px;
     margin-bottom: 50px;
@@ -176,13 +180,13 @@ table, th, td {
 .tablica-kontakt {
     width: 100%;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     background-color: white;
 }
    
 .td12 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 40px;
+    font-size: 14px;
     text-align: center; 
     color: black;
     margin-top: 20px;
@@ -206,7 +210,7 @@ table, th, td {
 
 .thankyou {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 45px;
+    font-size: 25px;
     text-align: center;
     margin-top: 60px;
 }
@@ -214,8 +218,8 @@ table, th, td {
 .copyright {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    font-size: 30px;
-    opacity: 80%;
+    font-size: 12px;
+    opacity: 70%;
     margin-top: 40px;
     margin-bottom: 40px;
 }
