@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 950px;
+    height: 1200px;
     background-image: url(https://img.freepik.com/free-vector/talking-bubble-vector-art-illustration_56104-870.jpg?w=900&t=st=1684432559~exp=1684433159~hmac=ca3c37ea1776940d7977e269cd0ad002e08d11426e0e1f2d969fa1788af10a53);
     background-repeat: no-repeat;  
     background-position: center;
@@ -22,7 +22,7 @@
   
   .Messages-list {
     padding: 8px 5px;
-    max-width: 900px;
+    max-width: 1250px;
     width: 100%;
     margin: 0 auto;
     list-style: none;
@@ -34,13 +34,13 @@
   .header1 {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .header2 {
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 25px;
+    font-size: 37px;
     text-align: center;
     margin-top: 10px;
     padding-top: 10px;
@@ -49,7 +49,7 @@
 
   .nazivSobe{
     color: black;
-    font-size: 40px;
+    font-size: 50px;
     text-indent: -110px;
     margin-bottom: 17px;
   
@@ -57,15 +57,15 @@
 
   .logout-btn{
     color: white;
-    text-indent: 2350px;;
-    padding: 15px;
+    text-indent: 2650px;;
+    padding: 17px;
   
   }
 
    .logout-btn2 {
     border-radius: 8px;
-    padding: 10px;
-    font-size: 27px;
+    padding: 17px;
+    font-size: 32px;
    }
 
   .logout-btn2:hover {
@@ -96,8 +96,8 @@
   }
   
   .Messages-message > .avatar {
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     border-radius: 5px;
     display: inline-block;
     margin: 0 10px -10px;
@@ -107,7 +107,7 @@
   .Message-content > .username {
     display: block;
     color: black;
-    font-size: 22px;
+    font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding-bottom: 2px;
   }
@@ -116,11 +116,12 @@
     padding: 10px;
     max-width: 400px;
     margin: 5px;
+    margin-right: 30px;
     border-radius: 8px;
     background-color: rgb(210, 82, 82);
     color: white;
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
@@ -132,8 +133,12 @@
   .input-btn {
     color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 27px;
+    font-size: 30px;
     border-radius: 8px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
   }
 
   .input-btn:hover {
@@ -146,15 +151,16 @@
     display: flex;
     width: 100%;
     justify-content: space-between;
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   
   input {
-    padding: 10px;
-    margin-right: 10px;
-    font-size: 22px;
+    padding-left: 50px;
+    padding-right: 20px;
+    margin-right: 20px;
+    font-size: 28px;
     border-radius: 8px;
     border: 3px solid rgb(33, 189, 174);
     flex-grow: 1;
