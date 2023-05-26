@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/zavrsni_algebra/static/css/main.8c0d8ac2.css",
+    "main.css": "/zavrsni_algebra/static/css/main.538cf128.css",
     "main.js": "/zavrsni_algebra/static/js/main.66b3954a.js",
     "static/media/pozadina4.jpg": "/zavrsni_algebra/static/media/pozadina4.bb369977b014648b3958.jpg",
     "static/media/logo2.jpg": "/zavrsni_algebra/static/media/logo2.935acfdd9bc41baeca19.jpg",
@@ -9,11 +9,11 @@
     "static/media/logo5.jpg": "/zavrsni_algebra/static/media/logo5.c6148188031ab4b822e7.jpg",
     "static/media/logo4.jpg": "/zavrsni_algebra/static/media/logo4.8428ba94ceb0cc42a01a.jpg",
     "index.html": "/zavrsni_algebra/index.html",
-    "main.8c0d8ac2.css.map": "/zavrsni_algebra/static/css/main.8c0d8ac2.css.map",
+    "main.538cf128.css.map": "/zavrsni_algebra/static/css/main.538cf128.css.map",
     "main.66b3954a.js.map": "/zavrsni_algebra/static/js/main.66b3954a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c0d8ac2.css",
+    "static/css/main.538cf128.css",
     "static/js/main.66b3954a.js"
   ]
 }
