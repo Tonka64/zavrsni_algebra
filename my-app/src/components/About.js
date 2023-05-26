@@ -31,13 +31,19 @@ const About = () =>{
         <br/>
     </div>
     <div>
-    <a href="/" target="_blank"><img className="logo1" src={logo2} alt="woman" title="Joe"/></a>
-    <a href="/" target="_blank"><img className="logo4" src={logo4} alt="man" title="Marie"/></a>
-    <a href="/" target="_blank"><img className="logo5" src={logo5} alt="man2" title="Harry"/></a>
-    <a href="/" target="_blank"><img className="logo6" src={logo6} alt="woman2" title="Lizzie"/></a>
-    <a href="/" target="_blank"><img className="logo7" src={logo7} alt="man3" title="Darwin"/></a>
-    <br/>
     <table className="table2">
+      <tr>
+          <td></td>
+          <td></td>
+
+      </tr>
+      <tr>
+        <td><a href="/" target="_blank"><img className="logo1" src={logo2} alt="woman" title="Joe"/></a></td>
+        <td><a href="/" target="_blank"><img className="logo4" src={logo4} alt="man" title="Marie"/></a></td>
+        <td><a href="/" target="_blank"><img className="logo5" src={logo5} alt="man2" title="Harry"/></a></td>
+        <td><a href="/" target="_blank"><img className="logo6" src={logo6} alt="woman2" title="Lizzie"/></a></td>
+        <td><a href="/" target="_blank"><img className="logo7" src={logo7} alt="man3" title="Darwin"/></a></td>  
+      </tr> 
         <tr>
             <td className="td1">Joe</td>
             <td className="td2">Marie</td>
@@ -50,9 +56,8 @@ const About = () =>{
     <br/>
     <br/>
     <br/>
-    <br/>    
     <hr/>
-    <div>
+    <div className="kontaktd">
         <h1 id="contact">Contact Information</h1>
         <p className="para123">For more information about our Chat Application, including its features, 
             functionality, and how it can cater to your communication needs, please don't 
@@ -67,6 +72,11 @@ const About = () =>{
             <br/>
             <br/>
             <br/>
+          </div>
+          <br/>
+          <br/>
+          <br/>
+          <div>  
         <table className="tablica-kontakt">
             <tr>
            <td className="td12"><a href="mailto:moj.email@mojmail.com" target='_blank'>E-mail adresa</a></td>

@@ -1,3 +1,5 @@
+import "./Header.css";
+
 const Header = (props) =>{
     /* !! ispred props.username pretvara vrijednost u boolean vrijednost */
     const isLoggedIn = !!props.username;
@@ -8,7 +10,7 @@ const Header = (props) =>{
         <div className="App-header">
         {<button className='sidebar-btn' onClick={props.toggleSidebar}>Sidebar</button>}
         <h1 className="nazivSobe">{props.username}'s Chat Room</h1>
-        <div className="logout-btn"> 
+        <div className="logout-btn1"> 
         <button className="logout-btn2" onClick={props.handleLogout}>Logout</button>
         </div>
       </div>}

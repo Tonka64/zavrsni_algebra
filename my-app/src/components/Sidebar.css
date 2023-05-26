@@ -2,37 +2,23 @@
 
 .btn-primary {
   border: none;
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(215, 23, 87, 0.929);
   color: #fff;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   border-radius: 8px;
-  font-size: 20px;
-}
-
-
-.sidebarh1 {
-  font-size: 25px;
-}
-
-.sidebar-btn {
-  display:block;
-  font-size: 18px;
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-bottom: 7px;
-  margin: 10px;
-  border-radius: 8px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  text-align: center;
+  font-size: 17px;
+  padding-left: 20px;
+  padding-right: 20px;
   
 }
 
-.sidebar-btn:hover{
-  color: black;
-  background-color: darkcyan;
+.btn-primary:hover{
+  background-color:rgb(243, 145, 178);
+    color: white;
+    cursor: pointer;
+    border: none;
 }
 
-  
 .input-btn{
   display: block;
   font-size: 22px;
@@ -46,20 +32,24 @@
   
 }
 
-.navbar {
-  border-radius: 5px;
-}
-
 .sidebar {
-  width: 350px;
   min-height: 100vh;
   box-shadow: 20px 10px 90px rgba(0, 0, 0, 0.16);
-  background-color: #ffffff;
+  background-color: #ffffff78;
   position:fixed;
   top: 0;
   left: -100%;
-  z-index: 1;
+  z-index: 99;
   transition: 0.6s;
+  display:block;
+  flex-direction:column;
+  width: 350px;
+  background-color: rgba(255, 255, 255, 0.185);
+  backdrop-filter: blur(3px);
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 35px rgba(8,7,16,0.6);
+  justify-content:center;
+  align-items: center;
 }
 
 .sidebar.active {
@@ -72,6 +62,7 @@
   justify-content: space-between;
   padding: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: url(../pozadina4.jpg);
   
   
 }
@@ -96,18 +87,19 @@
 
 
 .sd-body {
-  padding: 20px;
+  margin-top: 20px;
+  padding: 10px;
   max-height: calc(100vh - 67px);
   overflow-x: hidden;
 }
 
 .sd-body ul {
-  display: inline-block;
+  display:block;
   width: 100%;
   margin-bottom: 0;
-  padding: 10px;
+  padding: 3px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 20px;
+  font-size: 17px;
   text-align: center;
 }
 
@@ -115,19 +107,20 @@
 .sd-body ul li {
   list-style:none;
   margin-bottom: 20px;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 
 
 .sd-body ul li .sd-link {
   display: inline-block;
   width: 100%;
-  padding: 10px 16px;
+  padding: 10px 20px;
   color: #000000;
-  background-color: darkcyan;
-  border-radius: 60px;
+  background-color: rgba(250, 244, 219, 0.719);
+  border-radius: 10px;
   cursor:pointer;
-  text-decoration: none;
+  border: 2px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 35px rgba(8,7,16,0.6);
 }
 
 .sd-body ul li .sd-link:hover {
@@ -135,8 +128,8 @@
   width: 100%;
   padding: 10px 16px;
   color: white;
-  background-color: darkcyan;
-  border-radius: 60px;
+  background-color: rgba(0, 0, 0, 0.68);
+  border-radius: 10px;
   cursor:pointer;
   text-decoration: none;
 }

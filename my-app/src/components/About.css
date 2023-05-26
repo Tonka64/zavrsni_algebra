@@ -1,54 +1,54 @@
 
-.paragraf {
-    color: black;
-    border: none;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-
 .lista1 {
-    display: flex;
+    display:list-item;
     flex-flow: row wrap;
-    justify-content:space-between;
-    justify-content: space-around;
+    justify-content:center;
     list-style: none;
-    margin:0;
     font-size: 20px;
-    background: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.747);
+    color: rgb(0, 0, 0);
     text-align: center;
-    padding: 8px;
-    margin: 8px;
-    margin-top: 10px;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
 }
 
 .lista1 a {
     text-decoration: none;
     display: block;
-    padding: 15px;
+    padding: 12px;
+
    
 }
 
  .lista1 a:link {
     color: rgb(255, 255, 255);
+    text-decoration: none;
  }
 
  .lista1 a:visited {
-    color: darkcyan;
+    color:black;
  }
+
+ .lista1 a:hover{
+    background-color: rgba(214, 184, 194, 0.256);
+ }
+
 
 
 table, th, td {
     border: none;
-
 }
 
 #onama {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-top: 80px;
-    font-size: 24px;
+    font-size: 27px;
 }
 
 .par1 {
@@ -56,71 +56,93 @@ table, th, td {
     font-size: 18px;
     margin-left: 80px;
     margin-right: 80px;
-    margin-top: 60px;
+    margin-top: 40px;
     margin-bottom: 90px;
+    background-color: rgba(255, 255, 255, 0.776);
+    padding: 50px;
+    
 }
 ::selection {
     color: white;
-    background-color: darkcyan;
+    background-color: rgba(253, 194, 220, 0.824);
 }
-
+   
 #teammembers {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 100px;
-    font-size: 24px;
+    font-size: 27px;
+ 
 }
 
 .logo1 {
-    border-radius: 50%;
+    border-radius: 20%;
     margin-left: 60px;
-    width: 200px;
-    height: 200px;
+    margin-top: 60px;
+    width: 180px;
+    height: 180px;
     margin-right: 40px;
     margin-bottom: 20px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 20px rgba(8,7,16,0.6);
 }
 
+
 .logo4 {
-    border-radius: 50%;
+    border-radius: 20%;
     margin-left: 60px;
-    width: 200px;
-    height: 200px;
+    margin-top: 60px;
+    width: 180px;
+    height: 180px;
     margin-right: 40px;
     margin-bottom: 20px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 20px rgba(8,7,16,0.6);
 }
 
 .logo5 {
-    border-radius: 50%;
+    border-radius: 20%;
     margin-left: 60px;
-    width: 200px;
-    height:200px;
+    margin-top: 60px;
+    width: 180px;
+    height: 180px;
     margin-right: 40px;
     margin-bottom: 20px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 20px rgba(8,7,16,0.6);
 }
 
 .logo6 {
-    border-radius: 50%;
+    border-radius: 20%;
     margin-left: 60px;
-    width: 200px;
-    height: 200px;
+    margin-top: 60px;
+    width: 180px;
+    height: 180px;
     margin-right: 40px;
     margin-bottom: 20px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 20px rgba(8,7,16,0.6);
 }
 
 .logo7 {
-    border-radius: 50%;
+    border-radius: 20%;
     margin-left: 60px;
-    width: 200px;
-    height: 200px;
+    margin-top: 60px;
+    width: 180px;
+    height: 180px;
     margin-right: 40px;
     margin-bottom: 20px;
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 20px rgba(8,7,16,0.6);
 }
 
 .table2 {
     border: none;
     width: 100%;
-    margin-top: 20px;
+    margin-top: -30px;
+    text-align: center;
+    background-color: rgba(250, 244, 219, 0.459);
 }
 
 .td1 {
@@ -128,6 +150,7 @@ table, th, td {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
+    padding-bottom: 40px;
 
 }
 
@@ -136,6 +159,7 @@ table, th, td {
     width: 20%;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
+    padding-bottom: 40px;
 }
 
 .td3 {
@@ -143,6 +167,7 @@ table, th, td {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     width: 20%;
+    padding-bottom: 40px;
 }
 
 .td4 {
@@ -150,6 +175,7 @@ table, th, td {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     width: 20%;
+    padding-bottom: 40px;
 }
 
 .td5 {
@@ -157,55 +183,69 @@ table, th, td {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 25px;
     width: 20%;
+    padding-bottom: 40px;
 }
 
 
 #contact {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 90px;
+    padding-top: 30px;
     margin-bottom: 60px;
-    font-size: 24px;
+    font-size: 27px;
 
 }
 
 .para123 {
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
     margin: 25px;
     margin-bottom: 50px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:  rgba(255, 255, 255, 0.747);
+    padding: 20px;
+}
+
+.kontaktd{
+    background-image: url(../pozadina4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .tablica-kontakt {
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     background-color: white;
 }
    
 .td12 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 14px;
+    font-size: 18px;
     text-align: center; 
     color: black;
     margin-top: 20px;
+    padding: 20px;
 }
 
 
 .td12 a:link{
-    color:white;
-    background-color: darkcyan;
+    color:black;
     padding: 20px;
     margin-bottom: 50px;
     border-radius: 9px;
     padding-left: 40px;
     padding-right: 40px;
+    background-color:  rgba(239, 230, 186, 0.29);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 25px rgba(8,7,16,0.6);
 }
 
 .td12 a:hover{
     color: black;
     text-decoration: none;
+    background-color:  rgba(245, 232, 167, 0.539);
 }
 
 .thankyou {
