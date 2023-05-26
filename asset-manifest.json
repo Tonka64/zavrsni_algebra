@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/zavrsni_algebra/static/css/main.38099bfd.css",
-    "main.js": "/zavrsni_algebra/static/js/main.fa3d8da8.js",
-    "static/media/logo4.jpg": "/zavrsni_algebra/static/media/logo4.476af6c9a102d5896a3b.jpg",
-    "static/media/logo6.jpg": "/zavrsni_algebra/static/media/logo6.a3a27bb47e4642edf8ff.jpg",
-    "static/media/logo7.jpg": "/zavrsni_algebra/static/media/logo7.e4637bd6445e2ec395c4.jpg",
-    "static/media/logo5.jpg": "/zavrsni_algebra/static/media/logo5.ddc7c64d68d8e0922923.jpg",
+    "main.css": "/zavrsni_algebra/static/css/main.8c0d8ac2.css",
+    "main.js": "/zavrsni_algebra/static/js/main.66b3954a.js",
+    "static/media/pozadina4.jpg": "/zavrsni_algebra/static/media/pozadina4.bb369977b014648b3958.jpg",
+    "static/media/logo2.jpg": "/zavrsni_algebra/static/media/logo2.935acfdd9bc41baeca19.jpg",
+    "static/media/logo7.jpg": "/zavrsni_algebra/static/media/logo7.fc81880369c4f0f5b874.jpg",
+    "static/media/logo6.jpg": "/zavrsni_algebra/static/media/logo6.e2a733f4a37c110561bf.jpg",
+    "static/media/logo5.jpg": "/zavrsni_algebra/static/media/logo5.c6148188031ab4b822e7.jpg",
+    "static/media/logo4.jpg": "/zavrsni_algebra/static/media/logo4.8428ba94ceb0cc42a01a.jpg",
     "index.html": "/zavrsni_algebra/index.html",
-    "main.38099bfd.css.map": "/zavrsni_algebra/static/css/main.38099bfd.css.map",
-    "main.fa3d8da8.js.map": "/zavrsni_algebra/static/js/main.fa3d8da8.js.map"
+    "main.8c0d8ac2.css.map": "/zavrsni_algebra/static/css/main.8c0d8ac2.css.map",
+    "main.66b3954a.js.map": "/zavrsni_algebra/static/js/main.66b3954a.js.map"
   },
   "entrypoints": [
-    "static/css/main.38099bfd.css",
-    "static/js/main.fa3d8da8.js"
+    "static/css/main.8c0d8ac2.css",
+    "static/js/main.66b3954a.js"
   ]
 }
