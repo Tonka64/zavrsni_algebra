@@ -80,7 +80,7 @@ const About = () =>{
         <table className="tablica-kontakt">
             <tr>
            <td className="td12"><a href="mailto:moj.email@mojmail.com" target='_blank'>E-mail adresa</a></td>
-           <td className="td12"><a href="tel:+385987654321" target='_blank'>Kontakt telefon</a></td>
+           <td className="td12"><a href="tel:+385987654321" target='_blank'>Phone Number</a></td>
            </tr>
          </table>  
     </div>
@@ -89,6 +89,9 @@ const About = () =>{
     <br/>
     <br/>
     <hr/>
+    <div>
+      <form></form>
+    </div>
     <footer>
         <p className="thankyou">Thank you for using Chat application.</p>
         <p className="copyright">Chat Application © 2023</p>
